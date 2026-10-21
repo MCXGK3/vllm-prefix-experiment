@@ -8,6 +8,10 @@ venv/
 .env
 models/
 runtime/
+# Generated benchmark summaries, plots, and per-run result collections.
+/benchmark/results/
+# Scheduler timestamp traces emitted by the local Continuum runtime.
+/continuum_exp/
 pooled_requests/
 pooled_jct/
 *.tar.gz
